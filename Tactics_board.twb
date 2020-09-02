@@ -581,7 +581,7 @@
       </viewpoint>
       <simple-id uuid='{3998E969-CA95-432A-93BA-D20B3D0ED0B7}' />
     </window>
-    <window class='worksheet' name='Sheet 6'>
+    <window class='worksheet' maximized='true' name='Sheet 6'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -616,7 +616,7 @@
       </viewpoint>
       <simple-id uuid='{D14CED08-2F32-4B0C-93C3-75BAEF73DB7C}' />
     </window>
-    <window class='worksheet' maximized='true' name='Sheet 7'>
+    <window class='worksheet' name='Sheet 7'>
       <cards>
         <edge name='left'>
           <strip size='160'>
