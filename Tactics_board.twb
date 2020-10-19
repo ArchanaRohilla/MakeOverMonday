@@ -840,8 +840,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1250' minheight='1250' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='27' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='26' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='33' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='32' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='105' h='13125' id='12' is-fixed='true' is-scaled='1' param='C:/Users/rohil/Desktop/projects/MakeOverMonday/images/virat1.jpg' type='bitmap' w='11300' x='83000' y='3250'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
