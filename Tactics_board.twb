@@ -802,22 +802,46 @@
       <zones>
         <zone h='81250' id='3' name='Bubble_chart' show-title='false' w='79800' x='2500' y='5250' />
         <zone h='13125' id='12' is-scaled='1' param='C:/Users/rohil/Desktop/projects/MakeOverMonday/images/virat1.jpg' type='bitmap' w='11300' x='83000' y='3250' />
-        <zone h='15000' id='13' is-scaled='1' param='C:/Users/rohil/Desktop/projects/MakeOverMonday/images/dhawan1.jpg' type='bitmap' w='11200' x='83400' y='24500' />
-        <zone h='14625' id='14' is-scaled='1' param='C:/Users/rohil/Desktop/projects/MakeOverMonday/images/dhoni1.jpg' type='bitmap' w='10900' x='83200' y='43500' />
-        <zone h='14375' id='15' is-scaled='1' param='C:/Users/rohil/Desktop/projects/MakeOverMonday/images/jadhav1.jpg' type='bitmap' w='11900' x='83000' y='61000' />
-        <zone h='16250' id='16' is-scaled='1' param='C:/Users/rohil/Desktop/projects/MakeOverMonday/images/sharma1.jpg' type='bitmap' w='12000' x='83000' y='79250' />
+        <zone h='14375' id='13' is-scaled='1' param='C:/Users/rohil/Desktop/projects/MakeOverMonday/images/dhawan1.jpg' type='bitmap' w='11100' x='83400' y='22500' />
+        <zone h='14625' id='14' is-scaled='1' param='C:/Users/rohil/Desktop/projects/MakeOverMonday/images/dhoni1.jpg' type='bitmap' w='10900' x='83400' y='42625' />
+        <zone h='14375' id='15' is-scaled='1' param='C:/Users/rohil/Desktop/projects/MakeOverMonday/images/jadhav1.jpg' type='bitmap' w='11900' x='83200' y='60625' />
+        <zone h='16250' id='16' is-scaled='1' param='C:/Users/rohil/Desktop/projects/MakeOverMonday/images/sharma1.jpg' type='bitmap' w='12000' x='83100' y='79000' />
         <zone forceUpdate='true' h='5125' id='17' type='text' w='15000' x='83100' y='16375'>
           <formatted-text>
-            <run bold='true' fontcolor='#ffff00' fontsize='16'>Virat Kohli</run>
+            <run bold='true' fontcolor='#ffff00' fontsize='15'>Virat Kohli</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='6500' id='20' type='text' w='17700' x='82700' y='37250'>
+          <formatted-text>
+            <run bold='true' fontcolor='#ffff00' fontsize='15'>Shikhar Dhawan</run>
+            <run>Æ&#10;&#10;&#10;</run>
+          </formatted-text>
+        </zone>
+        <zone h='5625' id='21' type='text' w='10000' x='83800' y='55875'>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Æ&#10;</run>
+            <run bold='true' fontcolor='#ffff00' fontsize='15' italic='false' underline='false'>MS Dhoni&#10;</run>
+          </formatted-text>
+        </zone>
+        <zone h='5375' id='22' type='text' w='13400' x='83000' y='94500'>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Æ&#10;</run>
+            <run bold='true' fontcolor='#ffff00' fontsize='15' italic='false' underline='false'>Rohit Sharma&#10;</run>
+          </formatted-text>
+        </zone>
+        <zone h='5625' id='23' type='text' w='13200' x='82900' y='73000'>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Æ&#10;</run>
+            <run bold='true' fontcolor='#ffff00' fontsize='15' italic='false' underline='false'>Kedar Jadhav&#10;</run>
           </formatted-text>
         </zone>
       </zones>
       <devicelayouts>
         <devicelayout auto-generated='true' name='Phone'>
-          <size maxheight='1000' minheight='1000' sizing-mode='vscroll' />
+          <size maxheight='1250' minheight='1250' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='19' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='18' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='27' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='26' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='105' h='13125' id='12' is-fixed='true' is-scaled='1' param='C:/Users/rohil/Desktop/projects/MakeOverMonday/images/virat1.jpg' type='bitmap' w='11300' x='83000' y='3250'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -838,7 +862,7 @@
                 </zone>
                 <zone forceUpdate='true' h='5125' id='17' type='text' w='15000' x='83100' y='16375'>
                   <formatted-text>
-                    <run bold='true' fontcolor='#ffff00' fontsize='16'>Virat Kohli</run>
+                    <run bold='true' fontcolor='#ffff00' fontsize='15'>Virat Kohli</run>
                   </formatted-text>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -848,7 +872,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='120' h='15000' id='13' is-fixed='true' is-scaled='1' param='C:/Users/rohil/Desktop/projects/MakeOverMonday/images/dhawan1.jpg' type='bitmap' w='11200' x='83400' y='24500'>
+                <zone fixed-size='115' h='14375' id='13' is-fixed='true' is-scaled='1' param='C:/Users/rohil/Desktop/projects/MakeOverMonday/images/dhawan1.jpg' type='bitmap' w='11100' x='83400' y='22500'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -857,7 +881,11 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='117' h='14625' id='14' is-fixed='true' is-scaled='1' param='C:/Users/rohil/Desktop/projects/MakeOverMonday/images/dhoni1.jpg' type='bitmap' w='10900' x='83200' y='43500'>
+                <zone forceUpdate='true' h='6500' id='20' type='text' w='17700' x='82700' y='37250'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#ffff00' fontsize='15'>Shikhar Dhawan</run>
+                    <run>Æ&#10;&#10;&#10;</run>
+                  </formatted-text>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -866,7 +894,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='115' h='14375' id='15' is-fixed='true' is-scaled='1' param='C:/Users/rohil/Desktop/projects/MakeOverMonday/images/jadhav1.jpg' type='bitmap' w='11900' x='83000' y='61000'>
+                <zone fixed-size='117' h='14625' id='14' is-fixed='true' is-scaled='1' param='C:/Users/rohil/Desktop/projects/MakeOverMonday/images/dhoni1.jpg' type='bitmap' w='10900' x='83400' y='42625'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -875,7 +903,55 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='130' h='16250' id='16' is-fixed='true' is-scaled='1' param='C:/Users/rohil/Desktop/projects/MakeOverMonday/images/sharma1.jpg' type='bitmap' w='12000' x='83000' y='79250'>
+                <zone h='5625' id='21' type='text' w='10000' x='83800' y='55875'>
+                  <formatted-text>
+                    <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Æ&#10;</run>
+                    <run bold='true' fontcolor='#ffff00' fontsize='15' italic='false' underline='false'>MS Dhoni&#10;</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='115' h='14375' id='15' is-fixed='true' is-scaled='1' param='C:/Users/rohil/Desktop/projects/MakeOverMonday/images/jadhav1.jpg' type='bitmap' w='11900' x='83200' y='60625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='5625' id='23' type='text' w='13200' x='82900' y='73000'>
+                  <formatted-text>
+                    <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Æ&#10;</run>
+                    <run bold='true' fontcolor='#ffff00' fontsize='15' italic='false' underline='false'>Kedar Jadhav&#10;</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='130' h='16250' id='16' is-fixed='true' is-scaled='1' param='C:/Users/rohil/Desktop/projects/MakeOverMonday/images/sharma1.jpg' type='bitmap' w='12000' x='83100' y='79000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='5375' id='22' type='text' w='13400' x='83000' y='94500'>
+                  <formatted-text>
+                    <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Æ&#10;</run>
+                    <run bold='true' fontcolor='#ffff00' fontsize='15' italic='false' underline='false'>Rohit Sharma&#10;</run>
+                  </formatted-text>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
